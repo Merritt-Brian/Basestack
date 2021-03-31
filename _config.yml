@@ -27,13 +27,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   ( that is quickly and seamlessly installable on all standard laptops on any of the major operating systems used today. 
   Ultimately, the suite provides users with a means of quickly and accurately generating consensus sequences from viral 
   data within minutes of starting. In addition, we provide a system for automated updates once the application is installed 
-  for any future changes or additions to the applications.
-baseurl: "https://jhuapl-bio.github.io/Basestack/" # the subpath of your site, e.g. /blog
-url: "https://jhuapl-bio.github.io/Basestack/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Merritt-Brian
+  for any future changes or additions to the application.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: minima
 plugins:
   - jekyll-feed
 
