@@ -1,18 +1,13 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /Basestack/about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+ Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 
+  Basestack comes bundled with a series of both cutting edge public tools, 
+  some modified by JHU built phylogenetic and genomic pipelines, all integrated into a user interface 
+  ( that is quickly and seamlessly installable on all standard laptops on any of the major operating systems used today. 
+  Ultimately, the suite provides users with a means of quickly and accurately generating consensus sequences from viral 
+  data within minutes of starting. In addition, we provide a system for automated updates once the application is installed 
+  for any future changes or additions to the application.
