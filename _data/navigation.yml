@@ -4,8 +4,8 @@
   url: /support.html
   sublinks:
     - title: Windows
-      url: /Basestack/windows_install.markdown
+      url: /Basestack/install/windows
     - title: Mac
-      url: /Basestack/mac_install.markdown
+      url: /Basestack/install/mac
     - title: Linux
-      url: /Basestack/linux_install.markdown
+      url: /Basestack/install/linux

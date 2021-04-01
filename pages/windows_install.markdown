@@ -10,5 +10,18 @@ permalink: /Basestack/install/windows
 
 ## 1. Install Docker 
 
-- https://docs.docker.com/docker-for-windows/install/
+<a href="https://docs.docker.com/docker-for-windows/install/">Docker Location</a>
+
+## 2. Install Basestack
+
+Download Basestack from <a href="https://github.com/Merritt-Brian/Basestack/releases">Basestack Releases</a>
+- You will select the item labeled (`<Basestack-Version>.Setup.exe`)
+
+## 3. Start Basestack
+
+1. Double-click `<Basestack-Version>.Setup.exe `
+2. Follow the prompts for installing the software. Choose defaults unless otherwise needed.
+
+
+
 

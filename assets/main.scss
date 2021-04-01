@@ -1,3 +1,13 @@
+---
+---
+
+@import "minima";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #383838;
+}
 nav ul {
     list-style-type: none;
 }
@@ -8,9 +18,7 @@ nav a {
     text-decoration: none;
 }
 nav li.active a {
-    color: #ffffff;
 }
-
 /* NAVIGATION BAR
  -------------------------------------------------- */
 #navigation {
