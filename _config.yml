@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   data within minutes of starting. In addition, we provide a system for automated updates once the application is installed 
   for any future changes or additions to the application.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "Basestack" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Merritt-Brian
 
 # Build settings
