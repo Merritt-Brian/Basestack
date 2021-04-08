@@ -1,78 +1,78 @@
-
+---
 ---
 
-@import "minima";
-@import "bootstrap";
 @import "variables";
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+@import "minima";
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #383838;
+    margin: 0% !important;
+    padding: 0px !important;
 }
-nav ul {
-    list-style-type: none;
+
+
+
+.nav-link, .navbar-brand{
+    color: #FFFFF9 !important
 }
-nav li {
-    line-height: 30px;
+
+@media (max-width: 768px) {
+    #navbar {
+        float: none !important;
+        margin-right: 0;
+    }
 }
-nav a {
-    text-decoration: none;
-}
-nav li.active a {
-}
-/* NAVIGATION BAR
- -------------------------------------------------- */
-#navigation {
-    min-height: 70px !important;
-    padding-top: 10px;
-}
-#navigation .navbar-brand {
-    padding-right: 28px;
-    width: 280px;
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-    font-family: "hobo-std", sans-serif;
-    font-style: italic;
-    font-size: 26px !important;
-    color: #5fcf80 !important;
-}
-#navigation .navbar-brand .site-logo {
-    float: left;
-    margin-top: -10px;
-    margin-right: 1rem;
-    width: 250px;
-}
-#navigation #navbar {
+#navbar, .sidebar {
     float: right !important;
     margin-right: -15px;
+    background: #2b57b9;
     font-family: 'Helvetica Rounded', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 38px;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
 }
-@media (max-width: 768px) {
-    #navigation #navbar {
-        float: none !important;
-        margin-right: 0;
-    }
+.sidebar{ 
+    height: 100%;
+    padding-left: 10px;
+    border-color: #ffffff;
+    text-align:right;
+    padding: 5%;
 }
-#navigation #navbar .navbar-nav li a {
-    color: #b2bbbd !important;
-}
-#navigation #navbar .navbar-nav li a:hover,
-#navigation #navbar .navbar-nav li a:focus {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .dropdown-menu li a {
+#navbar .dropdown-menu li a,
+.sidebar .dropdown-menu li a {
     color: #515151 !important;
     text-shadow: none !important;
+}
+#navbar li a,
+.sidebar li a  {
+    color: #FFFFF9;
+}
+#navbar li a:hover,
+#navbar li a:focus,
+{
+    border-bottom: 2px solid #ffffff;
+}
+.sidebar li a:hover,
+.sidebar li a:focus{
+    border-bottom: solid 2px #ffffff;
+    border-top: solid 2px #ffffff;
+    // transition: border-height 0.15s linear;
+}
+
+.dropdown-menu li:hover,
+.dropdown-menu li:focus,
+{
+    color: gray;
+}
+.dropdown-menu li{
+    text-align:left;
+    margin-left: 15px;
+}
+.page-content{
+    padding: 10px
 }

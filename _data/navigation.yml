@@ -1,8 +1,7 @@
 
 - title: About
   url: /Basestack/about
-- title: Support
-  url: /support.html
+- title: Installationddddddd
   sublinks:
     - title: Windows
       url: /Basestack/install/windows

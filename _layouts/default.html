@@ -6,14 +6,20 @@
   <body>
 
     {%- include header.html -%}
-
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-2">
+          {% include sidebar.html %}
+        </div>
+        <div class="col-md-10">
+          <div class="page-content">
+              {{ content }}
+          </div>
+        </div>
       </div>
     </div>
 
-    {%- include footer.html -%}
+    <!-- {%- include footer.html -%} -->
 
   </body>
 

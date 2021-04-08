@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="home">
+  <p>hello</p>
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -15,7 +16,6 @@ layout: default
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
-
 
 
   {%- if posts.size > 0 -%}
