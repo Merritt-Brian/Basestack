@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+client/data
+client/package-lock.json
+client/dist
+client/node_modules
