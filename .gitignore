@@ -7,3 +7,6 @@ client/data
 client/package-lock.json
 client/dist
 client/node_modules
+.jekyll-metadata
+node_modules
+Gemfile.lock
