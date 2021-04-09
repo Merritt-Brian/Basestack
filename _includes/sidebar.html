@@ -10,18 +10,18 @@
               <div class="card">
                 <div class="card-header" id="header-{{link.title}}">
                   <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#header-{{link.title}}" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{link.title}}" aria-expanded="true" aria-controls="collapseOne">
                       {{ link.title }}
                     </button>
                   </h5>
                 </div>
 
                 <div id="collapse-{{link.title}}" class="collapse show" aria-labelledby="{{ link.title }}" data-parent="#accordion">
-                  <div class="card-body">
-                    <ul class="dropdown-menu">
+                  <div class="card-body" style="">
+                    <ul class="list-unstyled">
                         {% for sublink in link.sublinks %}
                             {% if sublink.title == 'separator' %}
-                                <li role="separator" class="divider dropdown-item"></li>
+                                <li role="separator" class="divider"></li>
                             {% else %}
                                 <li>
                                     <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
@@ -33,8 +33,8 @@
                 </div>
               </div>
               {% else %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                <li class="list-unstyled">
+                    <a class="" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                 </li>
               {% endif %}
         {% endfor %}
