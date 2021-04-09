@@ -7,10 +7,13 @@ permalink: /Basestack/install/mac
 ---
 
 
-## 1. Go to Docker Hub and Install Docker for Mac
+## 1. Go to Docker Hub and Download Docker for Mac
 
 https://docs.docker.com/docker-for-mac/ 
 
 
+## 2. Follow Instructions to Install
 
+https://docs.docker.com/docker-for-mac/install/
 
+{% include_relative install_module.md %}

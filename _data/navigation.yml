@@ -9,3 +9,5 @@
       url: /Basestack/install/mac
     - title: Linux
       url: /Basestack/install/linux
+    - title: Troubleshooting
+      url: /Basestack/install/troubleshooting

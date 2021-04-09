@@ -48,6 +48,20 @@ Make sure that you select the appropriate distribution for your machine
 					a. `docker run -v /tmp:/tmp nginx echo 'test' > /tmp/test.txt`
 					b. ls -lht /tmp/test.txt <-- ensure that ownership is your uid/gid or username:group
 
+Open a terminal and type `docker info`. You should see information about your `docker` service
+
+![Step 1](/assets/imgs/docker_info.PNG "Title")
+
+### Note:
+
+**Rootful**:
+- `/var/lib/docker` is the Docker Root Dir. YOU MUST correctly utilize the `userns-remap` configuration described above for this to work
+
+**Rootless**:
+- `$HOME/.local/share/docker` (or something similar in `$HOME`) will be the Docker Root Dir. 
+
+
+{% include_relative install_module.md %}
 
 
 
