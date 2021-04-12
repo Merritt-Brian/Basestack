@@ -3,7 +3,7 @@ layout: post
 title:  "Install for Linux"
 date:   2021-03-31 15:26:36 -0400
 categories: jekyll update
-permalink: /Basestack/install/linux
+permalink: /install/linux
 
 ---
 
@@ -50,7 +50,7 @@ Make sure that you select the appropriate distribution for your machine
 
 Open a terminal and type `docker info`. You should see information about your `docker` service
 
-![Step 1]({{site.url}}/{{site.baseurl}}/assets/images/docker_info.PNG "Title")
+![Step 1](/assets/img/docker_info.PNG "Title")
 
 ### Note:
 

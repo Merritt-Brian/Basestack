@@ -1,13 +1,13 @@
 
 - title: About
-  url: /Basestack/about
+  url: /about
 - title: Installation
   sublinks:
     - title: Windows
-      url: /Basestack/install/windows
+      url: /install/windows
     - title: Mac
-      url: /Basestack/install/mac
+      url: /install/mac
     - title: Linux
-      url: /Basestack/install/linux
+      url: /install/linux
     - title: Troubleshooting
-      url: /Basestack/install/troubleshooting
+      url: /install/troubleshooting

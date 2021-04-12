@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /Basestack/about/
+permalink: /about/
 ---
 
  Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 

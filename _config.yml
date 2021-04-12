@@ -3,7 +3,7 @@ name: Merritt-Brian
 email: brian.merritt@jhuapl.edu
 description: > # this means to ignore newlines until "show_excerpts:"
   Base site for Basestack
-baseurl: "Basestack" # the subpath of your site, e.g. /blog
+# baseurl: "Basestack" # the subpath of your site, e.g. /blog
 # url: "https://jhuapl-bio.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: false # set to true to show excerpts on the homepage
 github-username: "Merritt-Brian"

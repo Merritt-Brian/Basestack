@@ -3,7 +3,7 @@ layout: post
 title:  "Install Troubleshooting"
 date:   2021-03-31 15:26:36 -0400
 categories: jekyll update
-permalink: /Basestack/install/troubleshooting
+permalink: /install/troubleshooting
 
 ---
 
@@ -22,7 +22,7 @@ permalink: /Basestack/install/troubleshooting
 
 ##### Hyper-V Not Enabled - Windows
 
-![Step 1]({{site.basurl}}/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
+![Step 1](/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
 
 If you are on older Windows distributions, you may experience an error when attempting to start docker on how HyperV is not enabled. 
 
