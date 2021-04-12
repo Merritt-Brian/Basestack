@@ -17,32 +17,32 @@ permalink: /install/windows
 
 1. Head over to the [Docker](https://docs.docker.com/docker-for-windows/install/) website to install **Docker**
 
-![Step 1](/assets/img/Docker1.PNG "Title")
+![Step 1]({{site.baseurl}}/assets/img/Docker1.PNG "Title")
 
 2. Choose **Get Docker**
 
-![Step 2](/assets/img/Docker2.PNG "Title")
+![Step 2]({{site.baseurl}}/assets/img/Docker2.PNG "Title")
 
 3. Choose **Save File** from the prompt
 
-![Step 3](/assets/img/Docker3.PNG "Title")
+![Step 3]({{site.baseurl}}/assets/img/Docker3.PNG "Title")
 
 4. Once you've installed docker for Windows, you can start it at the **Quick Launch** by search **Docker**. You can also view it on your right-hand-bottom tray by right-clicking
 
-![Step 4](/assets/img/Docker4.PNG "Title")
+![Step 4]({{site.baseurl}}/assets/img/Docker4.PNG "Title")
 
 5. Here Docker provides a GUI environment to manage your system. You can allocate or limit resources to your containers as well as set networking settings if you'd like. **We use default values for our app**
 
-![Step 5](/assets/img/Docker4.1.PNG "Title")
+![Step 5]({{site.baseurl}}/assets/img/Docker4.1.PNG "Title")
 
 6. **OPTIONAL** Choose Local drives to share with containers. Useful if you're storing data on an external drive.
 
-![Step 6](/assets/img/Docker4.2.PNG "Title")
+![Step 6]({{site.baseurl}}/assets/img/Docker4.2.PNG "Title")
 
 7. Main image that allows you to manage specific containers 
 
 
-![Step 8](/assets/img/Docker5.PNG "Title")
+![Step 8]({{site.baseurl}}/assets/img/Docker5.PNG "Title")
 
 
 <hr>
@@ -51,7 +51,7 @@ permalink: /install/windows
 
 In your taskbar (lower-right), if you hover over the icon you should see the message displayed below. Right-clicking will give additional options
 
-![Step 1](/assets/img/Docker4.PNG "Title")
+![Step 1]({{site.baseurl}}/assets/img/Docker4.PNG "Title")
 
 ## 2. Install Basestack
 
