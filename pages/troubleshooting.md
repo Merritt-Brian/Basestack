@@ -22,7 +22,7 @@ permalink: /Basestack/install/troubleshooting
 
 ##### Hyper-V Not Enabled - Windows
 
-![Step 1](/assets/imgs/EnableBIOSVirtualization.PNG "HyperVEnable")
+![Step 1](/../assets/imgs/EnableBIOSVirtualization.PNG "HyperVEnable")
 
 If you are on older Windows distributions, you may experience an error when attempting to start docker on how HyperV is not enabled. 
 
@@ -32,7 +32,7 @@ To enable it within Basestack select: `System -> Windows Services -> Hyper-V -> 
 
 A window will appear prompting admin rights and then it will automatically being the enable process. See more below.
 
-![Step 1](/assets/imgs/HyperVChoices.PNG "HyperVChoices")
+![Step 1](/../assets/imgs/HyperVChoices.PNG "HyperVChoices")
 
 ##### B. Enable Hyper-V in Windows System
 
