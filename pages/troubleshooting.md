@@ -22,7 +22,7 @@ permalink: /install/troubleshooting
 
 ##### Hyper-V Not Enabled - Windows
 
-![Step 1]({{relative_url}}/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
+![Step 1]({{site.baseurl}}/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
 
 If you are on older Windows distributions, you may experience an error when attempting to start docker on how HyperV is not enabled. 
 
@@ -32,19 +32,19 @@ To enable it within Basestack select: `System -> Windows Services -> Hyper-V -> 
 
 A window will appear prompting admin rights and then it will automatically being the enable process. See more below.
 
-![Step 1](/assets/img/HyperVChoices.PNG "HyperVChoices")
+![Step 1]({{url}}/assets/img/HyperVChoices.PNG "HyperVChoices")
 
 ##### B. Enable Hyper-V in Windows System
 
 **Alternatively** you can enable it within the Host system itself by searching for "Turns Windows features on or off" and selecting "Hyper-V". This will require a computer restart
 
-![Step 2](/assets/img/Turn_Windows_ONOFF.jpg "HyperVChoices")
+![Step 2]({{site.url}}/assets/img/Turn_Windows_ONOFF.jpg "HyperVChoices")
 
 ##### WSL2 Not Installed - Windows
 
 The error (seen below) is often shown for newer Windows OS types. If this occurs, you may have different variants. In the included example, I have the option to enable WSL or use Hyper-V. 
 
-![Step 1](/assets/img/WSLNotInstalled.PNG "WSL error messages")
+![Step 1]({{baseurl}}/assets/img/WSLNotInstalled.PNG "WSL error messages")
 
 
 Sometimes, another window will appear regarding installing WSL. 
