@@ -22,7 +22,7 @@ permalink: /Basestack/install/troubleshooting
 
 ##### Hyper-V Not Enabled - Windows
 
-![Step 1](/../../assets/images/EnableBIOSVirtualization.PNG "HyperVEnable")
+![Step 1]({{site.url}}/assets/images/EnableBIOSVirtualization.PNG "HyperVEnable")
 
 If you are on older Windows distributions, you may experience an error when attempting to start docker on how HyperV is not enabled. 
 
@@ -32,19 +32,19 @@ To enable it within Basestack select: `System -> Windows Services -> Hyper-V -> 
 
 A window will appear prompting admin rights and then it will automatically being the enable process. See more below.
 
-![Step 1](/../assets/images/HyperVChoices.PNG "HyperVChoices")
+![Step 1]({{site.url}}{{site.url}}/assets/images/HyperVChoices.PNG "HyperVChoices")
 
 ##### B. Enable Hyper-V in Windows System
 
 **Alternatively** you can enable it within the Host system itself by searching for "Turns Windows features on or off" and selecting "Hyper-V". This will require a computer restart
 
-![Step 2](/assets/images/Turn_Windows_ONOFF.jpg "HyperVChoices")
+![Step 2]({{site.url}}/assets/images/Turn_Windows_ONOFF.jpg "HyperVChoices")
 
 ##### WSL2 Not Installed - Windows
 
 The error (seen below) is often shown for newer Windows OS types. If this occurs, you may have different variants. In the included example, I have the option to enable WSL or use Hyper-V. 
 
-![Step 1](/assets/images/WSLNotInstalled.PNG "WSL error messages")
+![Step 1]({{site.url}}/assets/images/WSLNotInstalled.PNG "WSL error messages")
 
 
 Sometimes, another window will appear regarding installing WSL. 
@@ -64,7 +64,7 @@ To Download then Install it within Basestack do:
 1. `System -> Windows Services -> WSL2 -> Download WSL2`
 2. `System -> Windows Services -> WSL2 -> Install WSL2`
 
-![Step 1](/assets/images/WSLInstallDownload.PNG "WSL Install")
+![Step 1]({{site.url}}/assets/images/WSLInstallDownload.PNG "WSL Install")
 
 You can then attempt to restart Docker Desktop. This also may require a system restart.
 
@@ -76,7 +76,7 @@ If you are still experiencing issues, attempt to enable virtualization from Base
 
 **Or** from "Turn Windows features on or off". This is also a good way double check that it is now enabled.
 
-![Step 1](/assets/images/TurnWSLONOFF.PNG "WSL Install")
+![Step 1]({{site.url}}/assets/images/TurnWSLONOFF.PNG "WSL Install")
 
 **You will need to restart your PC/Laptop after doing this!**
 <br>
@@ -87,11 +87,11 @@ In order for either of the above to work, you need to ensure that **virtualizati
 
 You can first check if it is enabled by going into the **Task Manager** and seeing if the Virtualization attribute is enabled.
 
-![Step 1](/assets/images/TaskManagerVirtualization.PNG "taskManagerVirtWin")
+![Step 1]({{site.url}}/assets/images/TaskManagerVirtualization.PNG "taskManagerVirtWin")
 
 If it is not, open up **Command Terminal** and type: `systeminfo`. Scroll to the bottom of the output and check if the Firmware has it enabled for Hyper-V requirements.
 
-![Step 1](/assets/images/WinSysInfoCMD.PNG "systeminfoWin")
+![Step 1]({{site.url}}/assets/images/WinSysInfoCMD.PNG "systeminfoWin")
 
 If not, you will need to enable Virtualization in your BIOS. This process will look different based on everyone's system. You should try to follow the instructions in this [link](https://www.thewindowsclub.com/disable-hardware-virtualization-in-windows-10). Choose your manufacturer type. 
 
@@ -99,11 +99,11 @@ Typically, though, to enter BIOS you must restart the computer and while it is b
 
 The default BIOS should look like the one below. In there, head to the **Advanced** tab and check if **Virtualization** is present. If so, enable it, save changes, and restart. If not, try to search in other tabs or open up some options that have further submenus within them as there is no guarantee it will be directly on the base **Advanced** tab. 
 
-![Step 1](/assets/images/BIOSDELLINTEL.jpg "BIOSDellVirt")
+![Step 1]({{site.url}}/assets/images/BIOSDELLINTEL.jpg "BIOSDellVirt")
 
 On AMD CPU's if you don't see virtualization it may be labeled as **SVM** in the **Advanced** tab
 
-![Step 2](/assets/images/BIOSASUSAMD.jpg "BIOSASUSAMD.jpg")
+![Step 2]({{site.url}}/assets/images/BIOSASUSAMD.jpg "BIOSASUSAMD.jpg")
 
 
 If the option is not present in the BIOS that means that your CPU does not support Virtualization and Docker **won't be able to properly run on your system.**
