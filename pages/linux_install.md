@@ -50,7 +50,7 @@ Make sure that you select the appropriate distribution for your machine
 
 Open a terminal and type `docker info`. You should see information about your `docker` service
 
-![Step 1]({{site.url}}/{{site.baseurl}}assets/images/docker_info.PNG "Title")
+![Step 1]({{site.url}}/{{site.baseurl}}/assets/images/docker_info.PNG "Title")
 
 ### Note:
 
