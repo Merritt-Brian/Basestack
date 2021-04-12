@@ -51,7 +51,7 @@ permalink: /install/windows
 
 In your taskbar (lower-right), if you hover over the icon you should see the message displayed below. Right-clicking will give additional options
 
-![Step 1](/assets/images/Docker4.PNG "Title")
+![Step 1](/assets/img/Docker4.PNG "Title")
 
 ## 2. Install Basestack
 

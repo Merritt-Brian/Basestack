@@ -22,7 +22,7 @@ permalink: /install/troubleshooting
 
 ##### Hyper-V Not Enabled - Windows
 
-![Step 1](/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
+![Step 1]({{relative_url}}/assets/img/EnableBIOSVirtualization.PNG "HyperVEnable")
 
 If you are on older Windows distributions, you may experience an error when attempting to start docker on how HyperV is not enabled. 
 
