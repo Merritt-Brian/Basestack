@@ -2,9 +2,6 @@
 layout: home
 ---
 
-# Welcome
-
-
 ![Step 3]({{site.baseurl}}/assets/img/homepage.png "Title")
 
  Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 
