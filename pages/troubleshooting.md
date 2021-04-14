@@ -12,7 +12,7 @@ permalink: /install/troubleshooting
 
 - Request or view feature changes at our [issue tracker](https://github.com/jhuapl-bio/Basestack/issues)
 - If you run into issues with the online install, you may want to download (or otherwise obtain) the offline install package
-	- Using the above download links, download the appropriate docker images you'd like e.g. basestack_consensus.tar.gz (~5.2GB)
+	- Using the above download links, download the appropriate docker images you'd like e.g. `basestack_consensus.tar.gz` (~5.2GB)
 	- With the 'Module Install' tab, select the gear icon and switch install method to 'offline'
 	- Drag or Browse to that file on YOUR SYSTEM into the appropriate file input space
 	- Click 'Install' (play-circle button)
@@ -108,14 +108,65 @@ On AMD CPU's if you don't see virtualization it may be labeled as **SVM** in the
 
 If the option is not present in the BIOS that means that your CPU does not support Virtualization and Docker **won't be able to properly run on your system.**
 
-<details>
+
+
+#### I/O timeout
+
+If installing as the offline method, sometimes you may retrieve and I/O exception as an error message. This is typically because you've tried to send docker to build too many images from large files in a short period of time. To fix this, you'll need to rerun docker a specific way
+
+![Step 1]({{site.baseurl}}/assets/img/debugIOTImeout.png "Title")
+
+- Simply seach for Hyper-V Manager in your toolbar, select the VM (usually your username is in its name), and then *Turn Off*. Docker will then shut down and you can restart it
+
+#### Docker Connection
+
+If you receive an error that you couldn't connect to docker, please try to restart via the taskbar
+
+![Step 1]({{site.baseurl}}/assets/img/dockertaskbarOptions.PNG "Title")
+
+
+#### 'You are not allowed to use Docker, you must be in the "docker-users" group' - Windows
+
+In Basestack select `System -> Windows Services -> Add User Docker-Users`. When completed you should see that either you're already a part of that group **OR** you've been successfully added.
+
+![Step 1]({{site.baseurl}}/assets/img/add_users_group_dockerusers.PNG "AdduersDockerGroup")
+
+**Alternatively** if the above does not work try the following:
+
+![Step 1]({{site.baseurl}}/assets/img/computerManagement.PNG "Title")
+
+- In the Windows search taskbar (bottom left icon), find `Computer Management`
+
+![Step 2]({{site.baseurl}}/assets/img/selectComputerManagementDocker.PNG "Title")
+
+- Select (left-side) System Tools -> Local Users and Groups -> Groups
+
+![Step 3]({{site.baseurl}}/assets/img/docker-user-view.PNG "Title")
+
+- Double click `docker-users` and see if your name is there, if not: 
+
+![Step 4]({{site.baseurl}}/assets/img/docker-users-add.PNG "Title")
+
+- Select the `Users` folder right about where you clicked `Groups`
+- Select the name of your user
+- enter `docker-users` into the object field and add.
+	- You will need to log out and back into your account for this to take effect
+
+
+
+<!-- <details>
 <summary>View More Common Errors</summary>
 
-
-## Mac
+ -->
+<!-- ## Mac -->
 
 ## Linux
 
+#### Permisson denied (Linux)
+
+Please ensure that you follow the correct [instructions](#1-install-docker) here to using `userns-remap`
+
+Note that this will map all of your processes INSIDE the docker containers to your user id if used properly. You will need sudo to delete any files or folders that are causing issues.
 
 
 

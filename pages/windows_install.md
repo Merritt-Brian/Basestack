@@ -13,6 +13,11 @@ permalink: /install/windows
 <a href="https://docs.docker.com/docker-for-windows/install/">Docker Location</a>
 
 
+<details>
+<summary>View Example</summary>
+
+<hr>
+
 #### A1.1 Windows Install Process for Docker (Click below)
 
 1. Head over to the [Docker](https://docs.docker.com/docker-for-windows/install/) website to install **Docker**
@@ -43,15 +48,20 @@ permalink: /install/windows
 
 
 ![Step 8]({{site.baseurl}}/assets/img/Docker5.PNG "Title")
-
-
 <hr>
 
-### 1.2 Confirm Docker is Running
+#### 1.2 Confirm Docker is Running
 
 In your taskbar (lower-right), if you hover over the icon you should see the message displayed below. Right-clicking will give additional options
 
 ![Step 1]({{site.baseurl}}/assets/img/Docker4.PNG "Title")
+
+</details>
+
+<br>
+<hr>
+
+
 
 ## 2. Install Basestack
 
@@ -60,6 +70,28 @@ Download Basestack from <a href="https://github.com/Merritt-Brian/Basestack/rele
 
 1. Double-click `<Basestack-Version>.Setup.exe `
 2. Follow the prompts for installing the software. Choose defaults unless otherwise needed.
+
+
+<details>
+<summary>Developer Mode Installation</summary>
+
+Prereq: `python3`, `miniconda` or `anaconda` environment (Windows Developers only. Installation handled for Mac and Linux in `make` process)
+
+1. Install `make`
+	- If on Windows you can get this in a conda environment
+2. Clone this repo using `git clone`. 
+	- All source code will be obtained in the folder. 
+3. Build Conda Environment using `conda`
+	- `conda env create -f environment.yml`
+	- `conda activate basestack`
+4. Build the App or Run in Development Mode
+	- Building the app and dependencies `make build-[unix|win]`
+	- Running hot reload for development `make dev`
+		- Dependencies must be already installed with `make build-[unix|win]`
+</details>
+
+<br>
+<hr>
 
 {% include_relative install_module.md %}
 
