@@ -61,14 +61,20 @@ body {
     background: #FFFFF9; 
     border-right: solid 2px #2b57b9;
     overflow-y:auto !important;
+
 }
 .sidebar .card-body{
     background: white;
+    width:100% !important;
+}
+.sidebar .card, .sidebar .card-header{
+    width: 100% !important;
 }
 #navbar .dropdown-menu li a,
 .sidebar .dropdown-menu li a {
     color: #515151 !important;
     text-shadow: none !important;
+     width:100%;
 }
 #navbar li a,
 .sidebar li a  {

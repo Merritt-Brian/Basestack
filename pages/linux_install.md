@@ -9,9 +9,12 @@ permalink: /install/linux
 
 ## 1. Installing Docker
 
-https://docs.docker.com/engine/install/#server
+<a href="https://docs.docker.com/engine/install/#server">Install Docker for Linux</a>
 
-Make sure that you select the appropriate distribution for your machine
+Make sure that you select the appropriate distribution for your machine. If you are unsure of your distribution use `lsb_release -a` from the command line to check your distro.
+
+![Step 1]({{site.baseurl}}/assets/img/release_distro.png "Title")
+
 
 ## 2. Setting Up Configurations on Ubuntu
 		A. Rootless - RECOMMENDED 
@@ -50,7 +53,7 @@ Make sure that you select the appropriate distribution for your machine
 
 Open a terminal and type `docker info`. You should see information about your `docker` service
 
-![Step 1](/assets/img/docker_info.PNG "Title")
+![Step 1]({{site.url}}/assets/img/docker_info.PNG "Title")
 
 ### Note:
 
@@ -62,6 +65,5 @@ Open a terminal and type `docker info`. You should see information about your `d
 
 
 {% include_relative install_module.md %}
-
 
 

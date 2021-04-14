@@ -9,7 +9,8 @@ permalink: /install/mac
 
 ## 1. Go to Docker Hub and Download Docker for Mac
 
-https://docs.docker.com/docker-for-mac/ 
+ 
+<a href="https://docs.docker.com/docker-for-mac/">Install Docker for OSX</a>
 
 
 ## 2. Follow Instructions to Install
@@ -17,5 +18,4 @@ https://docs.docker.com/docker-for-mac/
 https://docs.docker.com/docker-for-mac/install/
 
 {% include_relative install_module.md %}
-
 

@@ -11,3 +11,23 @@
       url: /install/linux
     - title: Troubleshooting
       url: /install/troubleshooting
+    - title: Uninstall
+      url: /install/uninstall
+- title: Pipelines
+  sublinks:
+    - title: Consensus
+      url: /pipelines/basestack_consensus
+    - title: Tutorials
+      url: /pipelines/workshop_tutorials
+    - title: RAMPART
+      url: /pipelines/rampart
+    - title: Nexstrain
+      url: /pipelines/nextstrain
+    - title: IGV
+      url: /pipelines/igv
+- title: Supplemental
+  sublinks:
+    - title: Software
+      url: /supplemental/suplemental_software
+    - title: Info
+      url: /supplemental/info
