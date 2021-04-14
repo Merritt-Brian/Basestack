@@ -1,6 +1,6 @@
 
-- title: About
-  url: /about
+- title: Home
+  url: /
 - title: Installation
   sublinks:
     - title: Windows
