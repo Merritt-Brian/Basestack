@@ -1,8 +1,9 @@
 ---
 layout: home
+title: Welcome 
 ---
 
-## Welcome
+
 
 ![Step 3]({{site.baseurl}}/assets/img/homepage.png "Title")
 
