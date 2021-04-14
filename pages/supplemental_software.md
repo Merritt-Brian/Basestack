@@ -1,10 +1,9 @@
-
 ---
 layout: post
 title:  "Software"
 date:   2021-03-31 15:26:36 -0400
 categories: jekyll update
-permalink: /supplemental/suplemental_software
+permalink: /supplemental/supplemental_software
 ---
 
 <strong>These tools are optional and not needed to run any Basestack feature</strong>

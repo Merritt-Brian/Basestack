@@ -17,7 +17,7 @@ Select *Settings* and Select *Offline* or *Online* Installation of Docker Images
 	- Click *Install Docker image files Online*. This process can take upwards of 45 minutes depending on internet speeds. please be patient. Once complete, you will receive a notification that the image(s) are ready and you can begin analysis!
 		- If you have slow internet speed you may get a message that the image failed to build. Attempt to retry the build process a few more times and see if it works. This usually happens after the first output line has been given and is dependent on how fast your communication with Docker Hub is.
 
-![Step 1]({{site.baseurl}}/assets/img/install_images.png "")		
+![Step 1]({{site.baseurl}}/assets/img/install_modules.png "")		
 
 2. Offline: Does not require stable internet. Builds the docker images from a large docker image. Recommended method for OFFLINE usage only.
 	- Download your offline image `basestack_consensus` from the source location (described in section 2 above).
