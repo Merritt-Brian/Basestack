@@ -27,7 +27,10 @@
       url: /pipelines/igv
 - title: Supplemental
   sublinks:
-    - title: Software
+    - title: MinKNOW 
+      url: /supplemental/minknow_guppy
+    - title: Additional Software
       url: /supplemental/supplemental_software
     - title: Info
       url: /supplemental/info
+
