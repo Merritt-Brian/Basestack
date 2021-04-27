@@ -102,7 +102,7 @@ sudo service minknow restart # Resart minknow
 You will also need to adjust the configuration file for guppy by modifying `/opt/ont/minknow/conf/app_conf`. Adjust the `gpu_calling` field to true in the JSON, being careful not to modify/delete any commas or quotations.
 
 
-![Step 2]({{site.baseurl}}/assets/img/cuda_gpu_guppy.PNG "Title")
+![Step 2]({{site.baseurl}}/assets/img/cuda_gpu_guppy.png "Title")
 
 
 From there you are all set to run basecalling directly within the MinKNOW application.
