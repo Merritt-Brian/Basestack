@@ -29,4 +29,10 @@ Select *Settings* and Select *Offline* or *Online* Installation of Docker Images
 
 These processes can take some time for either method. Rest assured that it will complete. For the online mode, if you receive a warning that the docker image didn't build, try to rerun it a few more times. Interruptions specifically with internet do occur at times but the process will pick up right back where you last left it. If you keep getting the warning notification, also try refreshing the app at `View -> Reload or Force Reload` on the top left. You can also hard fresh the app by restarting it altogether (quit and re-enter).
 
+<br>
 <hr>
+<br>
+
+### MinKNOW and Guppy
+
+If you need information on setting up MinKNOW with/without GPU basecalling, please see this [MinKNOW Installation]({{site.baseurl}}{% link pages/minknow_guppy.md %})
