@@ -55,7 +55,7 @@ Choose **ONE** option
 
 Open a terminal and type `docker info`. You should see information about your `docker` service
 
-![Step 1]({{site.url}}/assets/img/docker_info.PNG "Title")
+![Step 1]({{site.url}}/assets/img/docker_info.png "Title")
 
 ### Note:
 
