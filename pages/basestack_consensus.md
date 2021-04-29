@@ -21,6 +21,9 @@ Consensus Generation is the main feature of this application and is used to gene
 
 <strong>You may skip this portion if you'd like</strong>
 
+<hr>
+<br>
+
 1. `run_config.txt`
 
 
@@ -50,6 +53,16 @@ Consensus Generation is the main feature of this application and is used to gene
 - This should be any number of rows that contain barcode on the left ALWAYS and the sample code on the right. A no-template-control (NTC) must always be specified for a report to be completed. Separate by tab.
 - You are allowed to input your own custom values for each of the 3 files where the app will overwrite that corresponding file on a job submission. That means you can populate these fields by either directly modifying the files OR by inputting them into the input fields
 	- These values are currently not validating to their greatest extent so take care to correctly input values and delimit them with tabs if doing this manually.
+
+<hr>
+
+Lastly, there are three files that are made following a successful sequencing (and basecalling) run. These three are
+
+1. Sequencing Summary **REQUIRED**
+	- This file is made following **basecalling**. It contains the mapping and summary stats of all fast5 to fastq generations and must be present in the run directory for report generation
+	- If using CLI or stand-alone **basecalling** you will likely need to move this file from the fastq output savepath **to** the base run directory. 
+2. Throughput....csv **OPTIONAL**
+3. Drift Correction **OPTIONAL**
 
 
 <strong>Step 2</strong>
