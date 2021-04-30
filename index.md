@@ -13,8 +13,11 @@ title: Welcome
   ( that is quickly and seamlessly installable on all standard laptops on any of the major operating systems used today. 
   Ultimately, the suite provides users with a means of quickly and accurately generating consensus sequences from viral 
   data within minutes of starting. In addition, we provide a system for automated updates once the application is installed 
-  for any future changes or additions to the application.
+  for any future changes or additions to the application that is fundamentally built upon the Docker Container ecosystem.
 
+Please follow the sidebar links to review both installation steps for your distribution and additional information on the underlying pipelines.
+
+Basestack's recent releases can be found at: https://github.com/jhuapl-bio/Basestack/releases/
 
 
 
