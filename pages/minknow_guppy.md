@@ -95,7 +95,10 @@ Then, we need to replace the guppy version. Let's first save the cpu-only one be
 sudo mv /opt/ont/minknow/guppy/bin /opt/ont/minknow/guppy/bin.sav # Save the old guppy just in case
 tar -xvzf ont-guppy_4.3.4_linux64.tar.gz #Decompress guppy. Replace the version number with your own
 sudo mv ont-guppy/bin /opt/ont/minknow/guppy/ # Move the newly downloaded guppy
+#Disable online need for minknow to ping external servers
+sudo /opt/ont/minknow/bin/config_editor --filename /opt/ont/minknow/conf/sys_conf --conf system --set on_acquisition_ping_failure=ignore
 sudo service minknow restart # Resart minknow
+
 ```
 
 
