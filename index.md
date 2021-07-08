@@ -7,7 +7,7 @@ title: Welcome
 
 ![Step 3]({{site.baseurl}}/assets/img/homepage.png "Title")
 
- Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 
+Basestack is a platform for rapid and real time analysis of Nanopore generated sequencing data. 
   Basestack comes bundled with a series of both cutting edge public tools, 
   some modified by JHU built phylogenetic and genomic pipelines, all integrated into a user interface 
   ( that is quickly and seamlessly installable on all standard laptops on any of the major operating systems used today. 
