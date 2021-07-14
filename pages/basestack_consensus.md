@@ -10,6 +10,9 @@ permalink: /pipelines/basestack_consensus
 
 Consensus Generation is the main feature of this application and is used to generate a report of a run directory that was generated from a MinION run. It has multiple steps but is designed to be very automated once a job is submit for analysis.
 
+If you haven't already done so, download and unzip the [test-data]( {{site.baseurl}}/assets/data/test-data.zip ) folder
+
+
 <strong>Step 1</strong>
 
 ![Step 1]({{site.baseurl}}/assets/img/AddRunFolder.png "Title")
