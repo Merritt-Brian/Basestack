@@ -85,7 +85,16 @@ If you are still experiencing issues, attempt to enable virtualization from Base
 
 In order for either of the above to work, you need to ensure that **virtualization** is enabled in your firmware. Some processors do so by default, others do not. If you are having issue with starting Docker despite following either of the options above, please see below.
 
+
+First, check that your CPU can support virtualization by viewing the model on Intel/AMD product page(s)
+
+{% include_relative check_docker_support.md %}
+
+<br>
+
 You can first check if it is enabled by going into the **Task Manager** and seeing if the Virtualization attribute is enabled.
+
+
 
 ![Step 1]({{site.baseurl}}/assets/img/TaskManagerVirtualization.PNG "taskManagerVirtWin")
 
