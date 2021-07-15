@@ -15,6 +15,8 @@ permalink: /install/mac
 <a href="https://docs.docker.com/docker-for-mac/">Install Docker for OSX</a>
 
 
+{% include_relative check_docker_support.md %}
+
 <br>
 <hr>
 <br>

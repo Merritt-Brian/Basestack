@@ -18,6 +18,16 @@ Type Your Model Number, e.g. T6500 into the product search bar
 ![CheckingSites]({{site.baseurl}}/assets/img/intel_product_example_annotated.png "Title")
 In this example above, you can see that Vt-x (Virtualization) is not supported. This will be a **Yes** if it is supported.
 
+To find the cpu model on Windows:
+
+![CheckingCPU]({{site.baseurl}}/assets/img/system_info_cpu_windows.PNG "Title")
+
+On Mac or Ubuntu you can find this value in the About page e.g. on Ubuntu:
+
+![CheckingCPUbuntu]({{site.baseurl}}/assets/img/about_ubuntu.png "Title")
+
+
+
 </details>
 
 

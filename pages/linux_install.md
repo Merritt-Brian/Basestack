@@ -15,6 +15,12 @@ Make sure that you select the appropriate distribution for your machine. If you 
 
 ![Step 1]({{site.baseurl}}/assets/img/release_distro.png "Title")
 
+{% include_relative check_docker_support.md %}
+
+<br>
+<hr>
+<br>
+
 ## 2. Setting Up Configurations on Ubuntu
 
 Choose **ONE** option
