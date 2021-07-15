@@ -15,6 +15,9 @@ permalink: /install/mac
 <a href="https://docs.docker.com/docker-for-mac/">Install Docker for OSX</a>
 
 
+<br>
+<hr>
+<br>
 
 ## 2. Follow Instructions to Install
 

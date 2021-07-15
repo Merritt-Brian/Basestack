@@ -8,15 +8,12 @@ permalink: /install/windows
 ---
 
 
-## 1. Install Docker 
-
-<a href="https://docs.docker.com/docker-for-windows/install/">Docker Location</a>
-
+## 1. Install [Docker](https://docs.docker.com/docker-for-windows/install/) 
 
 <details>
 <summary>View Example</summary>
 
-<hr>
+<hr> <br>
 
 #### 1.1 Windows Install Process for Docker (Click below)
 
@@ -57,9 +54,17 @@ In your taskbar (lower-right), if you hover over the icon you should see the mes
 ![Step 1]({{site.baseurl}}/assets/img/Docker4.PNG "Title")
 
 </details>
+<br>
+<hr>
+<br>
+
+
+
+{% include_relative check_docker_support.md %}
 
 <br>
 <hr>
+<br>
 
 
 
@@ -106,8 +111,10 @@ Examples:
 	Windows 
 		- https://www.anaconda.com/distribution/#windows
 
+
 <br>
 <hr>
+<br>
 
 ##### Conda on Windows Install Process 
 
@@ -140,8 +147,10 @@ If you'd like a new install location specify here. You will need to supply this 
 
 </details>
 
+
 <br>
 <hr>
+<br>
 
 {% include_relative install_module.md %}
 
