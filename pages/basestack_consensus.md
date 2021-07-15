@@ -6,9 +6,15 @@ categories: jekyll update
 permalink: /pipelines/basestack_consensus
 ---
 
+
+
+
 ###  Running Consensus Generation and Reporting
 
 Consensus Generation is the main feature of this application and is used to generate a report of a run directory that was generated from a MinION run. It has multiple steps but is designed to be very automated once a job is submit for analysis.
+
+**Please refer to the [Installation]({{site.baseurl}}{% link pages/install_module.md %}) page if you haven't already done so.**
+
 
 If you haven't already done so, download and unzip the [test-data]( https://drive.google.com/file/d/1zrgwheJxhMTvd7zu0fuRhVYYM0aGY5XS/view?usp=sharing ) folder
 
